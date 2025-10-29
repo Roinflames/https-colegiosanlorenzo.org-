@@ -1,0 +1,182 @@
+[
+  {
+    "n": 1,
+    "nombre": "Edison Quijada",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18 rms",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "muy poco"
+  },
+  {
+    "n": 2,
+    "nombre": "Diego Lopez",
+    "fecha": "29/10/25",
+    "escala": "IV-A",
+    "nota": "18",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 3,
+    "nombre": "Sasuke Uzuki",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "Python SQL",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 4,
+    "nombre": "Joaquin Lira",
+    "fecha": "29/10/2025",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "Python SQL CSS",
+    "aprendizaje": "poco"
+  },
+  {
+    "n": 5,
+    "nombre": "José Villalobos",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 6,
+    "nombre": "André Orellana",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS JS",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 7,
+    "nombre": "Benjamin Vidal",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "HTML CSS JS",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 8,
+    "nombre": "Daniel Hernández",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 9,
+    "nombre": "Daniel Hormazabal",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 10,
+    "nombre": "Ignacio Troncoso",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 11,
+    "nombre": "Patricio Valdés",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "HTML CSS JS python",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 12,
+    "nombre": "Isidora Quintana",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS JS python",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 13,
+    "nombre": "Bryan Valdebenito",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "HTML CSS bootstrap",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 14,
+    "nombre": "Martin G",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 15,
+    "nombre": "Francisco",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 16,
+    "nombre": "Nicol Lopez",
+    "fecha": "29/10/23",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "vs solo"
+  },
+  {
+    "n": 17,
+    "nombre": "Analia Salazar",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "ninguna"
+  },
+  {
+    "n": 18,
+    "nombre": "Dominika Duran",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "ninguna"
+  },
+  {
+    "n": 19,
+    "nombre": "Dominika Quiroga",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "18",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 20,
+    "nombre": "Fernandez",
+    "fecha": "29/10/25",
+    "escala": "IVTP",
+    "nota": "20",
+    "tecnologia": "bootstrap HTML CSS",
+    "aprendizaje": "nada"
+  }
+]
