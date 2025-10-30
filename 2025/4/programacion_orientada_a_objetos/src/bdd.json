@@ -1,71 +1,71 @@
 [
   {
     "n": 1,
-    "nombre": "Edison Quijada",
+    "nombre": "Edison Qurape",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "18 años",
-    "tecnologia": "HTML CSS bootstrap",
-    "aprendizaje": "muy poco"
+    "edad": "",
+    "tecnologia": "HTML",
+    "aprendizaje": "no se"
   },
   {
     "n": 2,
     "nombre": "Diego Lopez",
     "fecha": "29/10/25",
-    "curso": "IV-A",
-    "edad": "18",
-    "tecnologia": "HTML CSS bootstrap",
-    "aprendizaje": "nada"
+    "curso": "IVTP",
+    "edad": "18 años",
+    "tecnologia": "HTML CSS workbench",
+    "aprendizaje": "muy poco"
   },
   {
     "n": 3,
-    "nombre": "Sasuke Uzuki",
-    "fecha": "29/10/25",
-    "curso": "IVTP",
-    "edad": "18",
-    "tecnologia": "Python SQL",
+    "nombre": "Samuel Elias Lorca Urra",
+    "fecha": "29/10",
+    "curso": "IV-A",
+    "edad": "17",
+    "tecnologia": "Ninguna",
     "aprendizaje": "nada"
   },
   {
     "n": 4,
-    "nombre": "Joaquin Lira",
+    "nombre": "Joaquin Arce",
     "fecha": "29/10/2025",
-    "curso": "IVTP",
-    "edad": "20",
-    "tecnologia": "Python SQL CSS",
-    "aprendizaje": "poco"
-  },
-  {
-    "n": 5,
-    "nombre": "José Villalobos",
-    "fecha": "29/10/25",
-    "curso": "IVTP",
+    "curso": "IVºTP",
     "edad": "18",
-    "tecnologia": "HTML CSS bootstrap",
+    "tecnologia": "Python bash SQL HTML CSS JS React",
     "aprendizaje": "nada"
   },
   {
-    "n": 6,
-    "nombre": "André Orellana",
+    "n": 5,
+    "nombre": "José Vallejos",
     "fecha": "29/10/25",
-    "curso": "IVTP",
+    "curso": "4to medio TP",
+    "edad": "18 años",
+    "tecnologia": "HTML VSCODE",
+    "aprendizaje": "lenguaje, crear sitios y perfeccionamiento"
+  },
+  {
+    "n": 6,
+    "nombre": "Ariel Orellana",
+    "fecha": "29/10/25",
+    "curso": "IVºTP",
     "edad": "18",
-    "tecnologia": "HTML CSS JS",
+    "tecnologia": "HTML VSCODE",
     "aprendizaje": "nada"
   },
   {
     "n": 7,
-    "nombre": "Benjamin Vidal",
-    "fecha": "29/10/25",
+    "nombre": "Benjamin Flores",
+    "fecha": "29",
     "curso": "IVTP",
     "edad": "20",
-    "tecnologia": "HTML CSS JS",
-    "aprendizaje": "nada"
+    "tecnologia": "VSCODE",
+    "aprendizaje": "poco"
   },
   {
     "n": 8,
-    "nombre": "Daniel Hernández",
-    "fecha": "29/10/25",
+    "nombre": "Martin Villarroel",
+    "fecha": "29-10-25",
     "curso": "IVTP",
     "edad": "18",
     "tecnologia": "HTML CSS bootstrap",
@@ -73,110 +73,155 @@
   },
   {
     "n": 9,
-    "nombre": "Daniel Hormazabal",
-    "fecha": "29/10/25",
-    "curso": "IVTP",
-    "edad": "18",
-    "tecnologia": "HTML CSS bootstrap",
-    "aprendizaje": "nada"
+    "nombre": "Renato Benjamín",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": ""
   },
   {
     "n": 10,
-    "nombre": "Ignacio Troncoso",
+    "nombre": "Ignacio Hernandez Loyola",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "20",
+    "edad": "17",
     "tecnologia": "HTML CSS bootstrap",
     "aprendizaje": "nada"
   },
   {
     "n": 11,
-    "nombre": "Patricio Valdés",
+    "nombre": "Germán Gonzales",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "20",
+    "edad": "18",
     "tecnologia": "HTML CSS JS python",
-    "aprendizaje": "vs solo"
+    "aprendizaje": "pag web, colab, bdd"
   },
   {
     "n": 12,
     "nombre": "Isidora Quintana",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "18",
-    "tecnologia": "HTML CSS JS python",
-    "aprendizaje": "vs solo"
+    "edad": "17 años",
+    "tecnologia": "ni una",
+    "aprendizaje": "nada"
   },
   {
     "n": 13,
-    "nombre": "Bryan Valdebenito",
+    "nombre": "Bryan Vallejos",
     "fecha": "29/10/25",
     "curso": "IVTP",
     "edad": "18",
-    "tecnologia": "HTML CSS bootstrap",
-    "aprendizaje": "vs solo"
+    "tecnologia": "ninguna",
+    "aprendizaje": "python"
   },
   {
     "n": 14,
     "nombre": "Martin G",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "20",
+    "edad": "18",
     "tecnologia": "bootstrap HTML CSS",
-    "aprendizaje": "vs solo"
+    "aprendizaje": "web responsivas y funcionales"
   },
   {
     "n": 15,
-    "nombre": "Francisco",
+    "nombre": "Francisca",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "18",
-    "tecnologia": "bootstrap HTML CSS",
+    "edad": "17",
+    "tecnologia": "POO basica",
     "aprendizaje": "vs solo"
   },
   {
     "n": 16,
-    "nombre": "Nicol Lopez",
+    "nombre": "Noelia Lopez",
     "fecha": "29/10/23",
     "curso": "IVTP",
-    "edad": "20",
+    "edad": "18",
     "tecnologia": "bootstrap HTML CSS",
-    "aprendizaje": "vs solo"
+    "aprendizaje": "nada"
   },
   {
     "n": 17,
-    "nombre": "Analia Salazar",
+    "nombre": "Ignacia Salazar",
     "fecha": "29/10/25",
     "curso": "IVTP",
     "edad": "18",
     "tecnologia": "bootstrap HTML CSS",
-    "aprendizaje": "ninguna"
+    "aprendizaje": "nada"
   },
   {
     "n": 18,
-    "nombre": "Dominika Duran",
+    "nombre": "Valentina Pastén",
     "fecha": "29/10/25",
     "curso": "IVTP",
-    "edad": "20",
+    "edad": "17",
     "tecnologia": "bootstrap HTML CSS",
-    "aprendizaje": "ninguna"
+    "aprendizaje": "nada"
   },
   {
     "n": 19,
-    "nombre": "Dominika Quiroga",
+    "nombre": "Fernanda Quiroga Fernandez",
     "fecha": "29/10/25",
     "curso": "IVTP",
     "edad": "18",
-    "tecnologia": "bootstrap HTML CSS",
+    "tecnologia": "ninguna",
     "aprendizaje": "nada"
   },
   {
     "n": 20,
-    "nombre": "Fernandez",
-    "fecha": "29/10/25",
-    "curso": "IVTP",
-    "edad": "20",
-    "tecnologia": "bootstrap HTML CSS",
+    "nombre": "Javier Maturana",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": ""
+  },
+  {
+    "n": 21,
+    "nombre": "Anais",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": "no recuerdo"
+  },
+  {
+    "n": 22,
+    "nombre": "María Fernanda Adrianzen",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
     "aprendizaje": "nada"
+  },
+  {
+    "n": 23,
+    "nombre": "Isidora Retamal",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": "HTML CSS"
+  },
+  {
+    "n": 24,
+    "nombre": "Yémina",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": "nada"
+  },
+  {
+    "n": 25,
+    "nombre": "Agustina Bernal",
+    "fecha": "",
+    "curso": "",
+    "edad": "",
+    "tecnologia": "",
+    "aprendizaje": "Diagramas BDD, normalización"
   }
 ]

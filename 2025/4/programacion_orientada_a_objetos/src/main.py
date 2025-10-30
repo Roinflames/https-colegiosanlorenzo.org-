@@ -2,6 +2,7 @@
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+import re
 
 # Abrir el archivo JSON
 with open('bdd.json', 'r', encoding='utf-8') as file:
@@ -23,31 +24,60 @@ print(data)
 # Pasar a un dataframe pandas
 df = pd.DataFrame(data)
 
+# Limpiar columna 'edad' para quedarnos solo con números
+def limpiar_edad(valor):
+    match = re.search(r'\d+', valor)  # Extrae el primer número
+    return int(match.group()) if match else None
+
+df['edad_num'] = df['edad'].apply(limpiar_edad)
+
+# Verificar
+print(df[['nombre', 'curso', 'edad', 'edad_num']])
+
 # Generar graficos con matplotlib
 # a) Gráfico de barras
-plt.figure(figsize=(10,6))
-plt.bar(df['curso'], df['edad'], color='skyblue')
-plt.title('Edades en el Curso')
-plt.xlabel('Curso')
-plt.ylabel('Edad')
-plt.xticks(rotation=45)
+edad_counts = df['edad_num'].value_counts().sort_index()
+
+plt.figure(figsize=(6,4))
+plt.bar(edad_counts.index, edad_counts.values, color='skyblue')
+plt.title(f'Distribución de edades - Curso {df["curso"].iloc[0]}')
+plt.xlabel('Edad')
+plt.ylabel('Cantidad de estudiantes')
+plt.tight_layout()
 plt.show()
 
 # b) Histograma
-# plt.figure(figsize=(8,5))
-# plt.hist(df['nota'], bins=10, color='lightgreen', edgecolor='black')
-# plt.title('Distribución de Notas')
-# plt.xlabel('Nota')
-# plt.ylabel('Cantidad de Estudiantes')
-# plt.show()
+# Lista de respuestas que consideraremos como "sin aprendizaje"
+sin_aprendizaje = ['nada', 'ninguna', 'no recuerdo', 'nose', 'no se', 'muy poco', 'poco']
+
+# Creamos una nueva columna categorizando
+df['categoria_aprendizaje'] = df['aprendizaje'].apply(
+    lambda x: 'Sin aprendizaje' if str(x).strip().lower() in sin_aprendizaje else 'Con aprendizaje'
+)
+
+conteo = df['categoria_aprendizaje'].value_counts()
+
+plt.figure(figsize=(6,4))
+plt.bar(conteo.index, conteo.values, color=['salmon', 'lightgreen'], edgecolor='black')
+plt.title('Distribución de respuestas sobre aprendizaje')
+plt.xlabel('Categoría')
+plt.ylabel('Cantidad de estudiantes')
+plt.tight_layout()
+plt.show()
 
 # c) Gráfico de línea
-# df['fecha'] = pd.to_datetime(df['fecha'])  # Asegúrate de que la columna sea datetime
+# Meses del año
+meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
 
-# plt.figure(figsize=(10,6))
-# plt.plot(df['fecha'], df['nota'], marker='o', linestyle='-')
-# plt.title('Notas en el tiempo')
-# plt.xlabel('Fecha')
-# plt.ylabel('Nota')
-# plt.grid(True)
-# plt.show()
+# Asistencia inventada (%)
+asistencia = [95, 92, 90, 88, 93, 97, 96, 94, 91, 89, 90, 92]
+
+# Crear gráfico de línea
+plt.figure(figsize=(10,5))
+plt.plot(meses, asistencia, marker='o', linestyle='-', color='blue')
+plt.title("Asistencia General del Año")
+plt.xlabel("Mes")
+plt.ylabel("Asistencia (%)")
+plt.ylim(0, 100)
+plt.grid(True)
+plt.show()
