@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dragon Ball Flask Proxy</title>
+</head>
+<body>
+
+<h1>Buscar personaje Dragon Ball</h1>
+
+<input type="number" id="personajeId" placeholder="ID del personaje">
+<button onclick="buscarPersonaje()">Buscar</button>
+
+<div id="resultado"></div>
+
+<script>
+function buscarPersonaje() {
+  const id = document.getElementById("personajeId").value;
+
+  fetch(`/personaje/${id}`)
+    .then(res => res.json())
+    .then(data => {
+      if(data.error){
+        document.getElementById("resultado").innerHTML = data.error;
+        return;
+      }
+
+      document.getElementById("resultado").innerHTML = `
+        <h2>${data.name}</h2>
+        <img src="${data.image}" width="200">
+        <p><strong>Raza:</strong> ${data.race}</p>
+        <p><strong>Género:</strong> ${data.gender}</p>
+      `;
+    });
+}
+</script>
+
+</body>
+</html>
