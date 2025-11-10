@@ -1,4 +1,18 @@
 -- Anais Alcaino y Maria Fernanda Adrianzen
+
+-- Se ejecuta sin errores, no muestra resultados
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 create database prueba;
 use prueba;
 
@@ -131,5 +145,5 @@ INSERT INTO TARJETA (ENTIDAD, SUCURSAL, NUMCONTRATO, PAN, INDSITTAR, FECCADU, TI
 (1, 3, 'C003', '9999000011112222', 6, '2026-11-15', 'CREDITO', 33333333),
 (1, 4, 'C004', '3333444455556666', 10, '2025-08-10', 'DEBITO', 44444444);
 
-PRUEBA2025.sql
-Mostrando PRUEBA2025.sql
+-- PRUEBA2025.sql
+-- Mostrando PRUEBA2025.sql

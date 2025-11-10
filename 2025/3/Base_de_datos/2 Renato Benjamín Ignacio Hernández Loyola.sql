@@ -1,6 +1,19 @@
 -- Braulio Riquelme y Renato Hernandez
-Create database emprendimiento;
 
+-- Da error de primary key duplicado
+---- Evaluación ----
+-- crear base de datos: ok
+-- tablas creadas: ok
+-- restricciones: ok
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+DROP DATABASE IF EXISTS emprendimiento; -- extra
+
+Create database emprendimiento;
 Use emprendimiento;
 
 -- Tabla ESTADO
@@ -181,7 +194,7 @@ INSERT INTO TARJETA (NUM_TARJETA, NUM_CUENTA, INDSITTAR, FECHA_EMISION, FECHA_VE
 VALUES ('5412345678901234', 2, 5, '2024-02-25', '2028-02-28', '456');
 
 INSERT INTO TARJETA (NUM_TARJETA, NUM_CUENTA, INDSITTAR, FECHA_EMISION, FECHA_VENCIMIENTO, CVV)
-VALUES ('4716543210987654', 3, 6, '2023-11-15', '2027-11-30', '789');}
+VALUES ('4716543210987654', 3, 6, '2023-11-15', '2027-11-30', '789');
 
 -- Consultar todos los estados
 SELECT * FROM ESTADO;
@@ -214,3 +227,5 @@ FROM TARJETA t
 JOIN SITUACION sit ON t.INDSITTAR = sit.INDSITTAR;
 evaluacion_grupal_final_2.sql
 Mostrando evaluacion_grupal_final_2.sql
+
+DROP DATABASE IF EXISTS emprendimiento;

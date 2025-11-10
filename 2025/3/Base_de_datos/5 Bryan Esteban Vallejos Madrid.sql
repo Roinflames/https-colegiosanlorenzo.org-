@@ -1,5 +1,19 @@
 -- yemina muñoz 
 -- bryan vallejos
+
+-- ERROR 1050 (42S01) at line 21: Table 'estado' already exists
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 CREATE DATABASE IF NOT EXISTS evaluacion_grupal
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_general_ci;
@@ -143,5 +157,5 @@ VALUES
 ('BANCOESTADO', 'SANTIAGO CENTRO 1', 'T001', '123456789012345', 5, '2027-05-01', 'DÉBITO', 12345678),
 ('SCOTIABANK', 'ÑUÑOA', 'T002', '987654321098765', 6, '2028-03-15', 'CRÉDITO', 87654321);
 
-prueba_grupal.sql
-Mostrando prueba_grupal.sql
+-- prueba_grupal.sql
+-- Mostrando prueba_grupal.sql

@@ -1,4 +1,18 @@
 -- De Martín González y Francisca Herrera
+
+-- Se ejecuta completo y muestra resultados
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 create database datosrelacional;
 use datosrelacional;
 
@@ -116,5 +130,5 @@ SELECT * FROM SUCURSAL;
 SELECT * FROM PERSONA;
 SELECT * FROM CUENTA;
 SELECT * FROM TARJETA;
-ultima_evaluacion.sql
-Mostrando ultima_evaluacion.sql
+-- ultima_evaluacion.sql
+-- Mostrando ultima_evaluacion.sql

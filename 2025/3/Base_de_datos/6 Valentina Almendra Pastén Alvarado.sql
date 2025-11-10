@@ -1,4 +1,18 @@
 -- valentina y fernanda
+
+-- Se ejecuta completo y muestra resultados
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 CREATE DATABASE evaluacion_grupal;
 USE evaluacion_grupal;
 
@@ -123,5 +137,5 @@ SELECT * FROM SUCURSAL;
 SELECT * FROM PERSONA;
 SELECT * FROM CUENTA;
 SELECT * FROM TARJETA;  
-valentina y fernanda.sql
-Mostrando valentina y fernanda.sql
+-- valentina y fernanda.sql
+-- Mostrando valentina y fernanda.sql

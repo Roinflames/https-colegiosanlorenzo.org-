@@ -1,5 +1,17 @@
 -- Ariel
 -- Javier
+
+---- Evaluación ----
+-- crear base de datos: no ok
+-- tablas creadas: ok
+-- restricciones: ok
+-- secuencias: error en SEQ_ENTIDAD
+-- insertar registros: no ok sintáxis
+-- insertar (PERSONA, CUENTA, TARJETA): ok, ok, no ok sintáxis fecha
+-- Confirmar: ok
+-- Verificar: ok
+--------------------
+
 -- 1. Crear tablas con restricciones NOT NULL
 CREATE TABLE ESTADO (
     CODESTCTA INT PRIMARY KEY,

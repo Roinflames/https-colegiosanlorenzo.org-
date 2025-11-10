@@ -1,5 +1,19 @@
 -- José Benjamín Vallejos Pérez
 -- Villarroel
+
+-- ERROR 4085 (HY000) at line 124: Sequence 'estado.seq_cod_bco' has out of range value for options
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 create database estado;
 use estado;
 -- TABLA: ESTADO
@@ -167,5 +181,5 @@ INSERT INTO TARJETA VALUES ('SCOTIABANK', 'MACUL', 'TARJ002', '5555666677778888'
 INSERT INTO TARJETA VALUES ('SANTANDER', 'ÑUÑOA', 'TARJ003', '9999000011112222', 2, SYSDATE, 'TITULAR', 33333333);
 
 
-vallejos_villarroel.sql
-Mostrando vallejos_villarroel.sql
+-- vallejos_villarroel.sql
+-- Mostrando vallejos_villarroel.sql

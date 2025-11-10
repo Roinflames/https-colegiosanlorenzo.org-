@@ -1,5 +1,19 @@
 -- Sergio Fernando Valdés Vargas   
 -- Editson Quispe
+
+-- Se ejecuta sin errores, no muestra resultados
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 CREATE DATABASE Banco;
 USE Banco;
 
@@ -116,5 +130,5 @@ INSERT INTO CUENTA (COD_BCO, COD_SUC, NUMCONTRATO, CODESTCTA, FECALTA, RUT) VALU
 INSERT INTO TARJETA (ENTIDAD, SUCURSAL, NUMCONTRATO, PAN, INDSITTAR, FECCADU, TIPPER, RUT) VALUES
 ('0000', '0001', '123456789012', '4532123456789012', 5, '2026-01-31', 'DEBITO', 12345678),
 ('0010', '0002', '234567890123', '4916234567890123', 5, '2027-02-28', 'CREDITO', 98765432);
-evaluacion_final_07112025 (1).sql
-Mostrando evaluacion_final_07112025 (1).sql
+-- evaluacion_final_07112025 (1).sql
+-- Mostrando evaluacion_final_07112025 (1).sql

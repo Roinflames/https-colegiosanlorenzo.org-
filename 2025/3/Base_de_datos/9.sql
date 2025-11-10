@@ -1,4 +1,18 @@
 --  Isidora Paz Retamal Díaz
+
+-- ERROR 1046 (3D000) at line 17: No database selected
+
+---- Evaluación ----
+-- crear base de datos: 
+-- tablas creadas: 
+-- restricciones: 
+-- secuencias: 
+-- insertar registros: 
+-- insertar (PERSONA, CUENTA, TARJETA): 
+-- Confirmar: 
+-- Verificar: 
+--------------------
+
 -- 1. Creación de Tablas y Restricciones NOT NULL
 
 -- Tabla ESTADO
@@ -207,5 +221,5 @@ VALUES ('0', '1', 'CUE000012345', '1234567890123456', 5, DATE '2028-12-31', 'DEB
 -- TARJETA 2: Para la CUENTA 2 (Maria Lopez Diaz), Bloqueada Robo (INDSITTAR 6)
 INSERT INTO TARJETA (ENTIDAD, SUCURSAL, NUMCONTRATO, PAN, INDSITTAR, FECADDU, TIPPER, RUT)
 VALUES ('0', '1', 'CUE000012346', '9876543210987654', 6, DATE '2026-06-30', 'CREDITO', 19876543);
-trabajofinal.sql
-Mostrando trabajofinal.sql
+-- trabajofinal.sql
+-- Mostrando trabajofinal.sql
