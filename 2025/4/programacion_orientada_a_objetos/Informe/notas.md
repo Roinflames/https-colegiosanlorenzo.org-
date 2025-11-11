@@ -14,7 +14,7 @@
 | 12 | Diego Franco | López Tapia | 4.0 |
 | 13 | Samuel Elías | Lorca Urra | |
 | 14 | Javier Alejandro | Maturana Chacón | |
-| 15 | Jorge Osvaldo | Mesías Pinto | |
+| 15 | Jorge Osvaldo | Mesías Pinto | 5.1 |
 | 16 | Yemina Victoria | Muñoz Salazar | 5.9 |
 | 17 | Fernando Maximiliano | Orellana Burgos | |
 | 18 | Ariel Ignacio | Orellana Quiroz | |
@@ -28,8 +28,8 @@
 | 26 | | | |
 | 27 | Nicolas Ignacio | Rojas Reyes | 5.9 |
 | 28 | Ignacia Andrea | Salazar Figueroa | 4.0 |
-| 29 | Katalina Estrella | Soto Elgueta | |
+| 29 | Katalina Estrella | Soto Elgueta | 1.0 |
 | 30 | Sergio Fernando | Valdés Vargas | |
 | 31 | Bryan Esteban | Vallejos Madrid | |
-| 32 | José Benjamín | Vallejos Pérez | |
+| 32 | José Benjamín | Vallejos Pérez | 7.0 |
 | 33 | Martín Elías | Villarroel Neira | |
