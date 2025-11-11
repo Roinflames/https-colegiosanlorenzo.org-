@@ -24,4 +24,4 @@ Módulo 04 - Sistemas operativos
 
 TC-PROG-M04
 
-OA 9. Instalar y configurar sistemas operativos en computadores personales con el fin de incorporarlos a  una red LAN, cumpliendo con los estándares de calidad y seguridad establecidos.
+OA 9. Instalar y configurar sistemas operativos en computadores personales con el fin de incorporarlos a una red LAN, cumpliendo con los estándares de calidad y seguridad establecidos.

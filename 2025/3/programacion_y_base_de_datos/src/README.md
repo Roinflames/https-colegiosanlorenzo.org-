@@ -1,0 +1,1 @@
+Este es un ejemplo sin código para mostrar la estructura de un proyecto Flask.
