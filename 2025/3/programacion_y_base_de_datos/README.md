@@ -29,8 +29,10 @@ Como se describe en el Notebook, es una Introducción a SQLite y Conceptos de Ba
 #### Clase 6
 [Contenido en Python Notebook](./c6/c6-131125.ipynb)
 En esta clase veremos un Python Notebook con las dependencias google.generativeai sqlite3 os dotenv. 
+EVA2
 
 #### Clase 7
+Retroalimentación EVA2 + Actividad
 
 #### Clase 8
 
