@@ -1,0 +1,2 @@
+Buenas buenas! Le quiero hacer una Demo a mi compañero de trabajo en el colegio.
+Él quiere automatizar mediante la IA la revisión de trabajos de su curso, entiendo que principalmente tiene que ver con diseño y desarrollo HTML, por lo que quiero crear una carpeta demo, generar una rúbrica, generar una escala de notas con 60% de exigencia y generar 3 trabajos de alumnos simulados con distintos tipos de rendimiento para mostrar la efectividad de la revisión de estas actividades con IA. 
