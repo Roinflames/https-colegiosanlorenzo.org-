@@ -32,14 +32,11 @@ En esta clase veremos un Python Notebook con las dependencias google.generativea
 EVA2
 
 #### Clase 7
-Retroalimentación EVA2 + Actividad
+Retroalimentación EVA2 + Actividad individual(ES)
 
 #### Clase 8
 
 #### Clase 9
 
 #### Clase 10
-
-#### Clase 11
-
-#### Clase 12
+EF
