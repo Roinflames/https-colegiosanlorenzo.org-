@@ -1,6 +1,7 @@
 <!-- 3 horas pedagògicas -->
 # Clase 7: Introducción a la Línea de Comandos (CMD)
 [GAMMA](https://gamma.app/docs/Introduccion-a-la-Linea-de-Comandos-CMD-vr1j4lxkqf8andu?mode=doc)
+[Documentación Oficial](https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/cmd)
 
 ## Objetivo de la Clase
 Familiarizar a los estudiantes con los comandos básicos e intermedios de la línea de comandos de Windows (CMD), entendiendo su utilidad para la navegación de archivos, gestión de directorios y ejecución de programas.
